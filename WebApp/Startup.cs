@@ -42,8 +42,8 @@ namespace WebApp
 
             app.UseMvc(x=> 
                 {
-                    //啟用 OData 物件的 Filter 功能
-                    x.Filter();
+                    //啟用 OData 物件的 Filter,Count 功能
+                    x.Filter().Count();
                     x.MapODataServiceRoute("odata", "odata", GetEdmModel());
                 });
         }
