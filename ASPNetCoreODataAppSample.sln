@@ -9,7 +9,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Host", "Host", "{AF080EE9-B
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Client", "Client", "{2FDE6BB0-A14A-4014-8E8A-E4753A7D5693}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ODataClientApp", "ODataClientApp\ODataClientApp.csproj", "{70EB06E8-EE87-47FA-B7A1-4C7AE2C21947}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ODataClientApp", "ODataClientApp\ODataClientApp.csproj", "{70EB06E8-EE87-47FA-B7A1-4C7AE2C21947}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ODataClientUseDataServiceContext", "ODataClientUseDataServiceContext\ODataClientUseDataServiceContext.csproj", "{BCC1046D-0820-4975-885D-E3DD742204EC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ODataModel", "ODataModel\ODataModel.csproj", "{17CAB29E-2588-4057-B1DC-355DF454E009}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{F30D1993-1B07-4C55-A0B2-43541D1D8AA8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,6 +31,14 @@ Global
 		{70EB06E8-EE87-47FA-B7A1-4C7AE2C21947}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{70EB06E8-EE87-47FA-B7A1-4C7AE2C21947}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{70EB06E8-EE87-47FA-B7A1-4C7AE2C21947}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BCC1046D-0820-4975-885D-E3DD742204EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCC1046D-0820-4975-885D-E3DD742204EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCC1046D-0820-4975-885D-E3DD742204EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCC1046D-0820-4975-885D-E3DD742204EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17CAB29E-2588-4057-B1DC-355DF454E009}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17CAB29E-2588-4057-B1DC-355DF454E009}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17CAB29E-2588-4057-B1DC-355DF454E009}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17CAB29E-2588-4057-B1DC-355DF454E009}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -32,6 +46,8 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{B0F45790-4632-4C32-97A3-1E4DBC735719} = {AF080EE9-B927-4D77-B390-DE3ECF6B328F}
 		{70EB06E8-EE87-47FA-B7A1-4C7AE2C21947} = {2FDE6BB0-A14A-4014-8E8A-E4753A7D5693}
+		{BCC1046D-0820-4975-885D-E3DD742204EC} = {2FDE6BB0-A14A-4014-8E8A-E4753A7D5693}
+		{17CAB29E-2588-4057-B1DC-355DF454E009} = {F30D1993-1B07-4C55-A0B2-43541D1D8AA8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4806E81E-10CD-45F8-83C2-392D58F805A9}

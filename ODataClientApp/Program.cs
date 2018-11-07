@@ -9,6 +9,7 @@ namespace ODataClientApp
             var _baseAddress = "";
             var _url = "";
 
+
             Console.WriteLine("press any key to exit");
             Console.ReadKey();
         }
